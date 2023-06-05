@@ -64,15 +64,6 @@ for curr_z in unique_z:
         ax.grid(False)
         ax.set_zticks([])
         ax.set_zticklabels([])
-        
-        # fig.canvas.callbacks.connect('scroll_event', on_scroll)
-        # fig.canvas.mpl_connect('motion_notify_event', on_mouse_move)
-        
-        
-        ax.set_title(f'Z = {curr_z:.2f}')  # добавляем заголовок с текущим значением Z
+        ax.set_title(f'Z = {curr_z:.2f}')
 
 plt.show()
-# run = True
-# while run:
-#     plt.show()
-#     plt.pause(0.1)
